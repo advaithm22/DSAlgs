@@ -8,14 +8,10 @@ class Queues:
             return False
     def enqueue(self,element):
         self.a.append(element)
-        print(self.a)
     def dequeue(self):
-        self.a.remove(0)
-        print(self.a)
+        self.a.pop(0)
     def peek(self):
         print(self.a[0])
-        print(self.a)
-
         
 
  
